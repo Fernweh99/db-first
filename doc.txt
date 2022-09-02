@@ -1,21 +1,21 @@
 
 usedCars:
 
-      COLONNE        TIPI DI DATO
+      COLONNE        TIPI DI DATO               ATTRIBUTI                   INDICE
 
-id                -  BIGINT       - 
-marca             -  VARCHAR(30)  - 
-modello           -  VARCHAR(50)  - 
-carburante        -  VARCHAR(20)  - 
-numero_porte      -  CHAR(1)      - 
-cambio            -  VARCHAR(15)  - 
-immatricolazione  -  DATE         - 
-Km                -  VARCHAR(6)   - 
-classe_emissioni  -  VARCHAR(15)  - 
-prezzo            -  MEDIUMINT    - 
-tipologia         -  VARCHAR(15)  - 
-potenza_cv        -  CHAR(3)      - 
-potenza_kw        -  FLOAT(4,1)   - 
-cilindrata        -  CHAR(4)      - 
-marce             -  CHAR(1)      - 
+id                -  BIGINT       -  UNIQUE, NOT NULL, AUTO_INCREMENT  -  PRIMARY KEY
+marca             -  VARCHAR(30)  -  NOT NULL,                         -  INDEX
+modello           -  VARCHAR(50)  -  NOT NULL,                         -  INDEX
+carburante        -  VARCHAR(20)  -  NOT NULL,                         -  
+numero_porte      -  CHAR(1)      -  NULL,                             -
+cambio            -  VARCHAR(15)  -  NULL,                             -
+immatricolazione  -  DATE         -  NOT NULL,                         -
+Km                -  VARCHAR(6)   -  NOT NULL,                         -
+classe_emissioni  -  VARCHAR(15)  -  NULL,                             - 
+prezzo            -  MEDIUMINT    -  NOT NULL,                         -  INDEX
+tipologia         -  VARCHAR(15)  -  NULL,                             -
+potenza_cv        -  CHAR(3)      -  NOT NULL,                         -
+potenza_kw        -  FLOAT(4,1)   -  NULL,                             -
+cilindrata        -  CHAR(4)      -  NOT NULL,                         -
+marce             -  CHAR(1)      -  NULL,                             -
 
