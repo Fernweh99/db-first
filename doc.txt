@@ -1,0 +1,21 @@
+
+usedCars:
+
+      COLONNE        TIPI DI DATO
+
+id                -  BIGINT       - 
+marca             -  VARCHAR(30)  - 
+modello           -  VARCHAR(50)  - 
+carburante        -  VARCHAR(20)  - 
+numero_porte      -  CHAR(1)      - 
+cambio            -  VARCHAR(15)  - 
+immatricolazione  -  DATE         - 
+Km                -  VARCHAR(6)   - 
+classe_emissioni  -  VARCHAR(15)  - 
+prezzo            -  MEDIUMINT    - 
+tipologia         -  VARCHAR(15)  - 
+potenza_cv        -  CHAR(3)      - 
+potenza_kw        -  FLOAT(4,1)   - 
+cilindrata        -  CHAR(4)      - 
+marce             -  CHAR(1)      - 
+
